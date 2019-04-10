@@ -3,10 +3,92 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Module 5 Project</title>
+    <title>Bates: Module 5 Project</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
   </head>
   <body>
+   
+      <div class="container">
+  <h1 class="text-center">Script Programming Jeoprady</h1>
+        <br>
+      
+          <div class="container">
+    <div class="row">
+    <div class="col-sm-4">
+        <p class="text-center food">Food</p>
+        </div>
+    <div class="col-sm-4">
+        <p class="text-center animals">Animals</p>
+        </div>
+    <div class="col-sm-4">
+        <p class="text-center disney">Disney</p>
+        </div>
+              </div>
+          </div>
+          
     
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4 text-center">
+      <button class="btn btn-primary btn-block food" onclick="showQuestion('food', 100)" >$100</button>
+    </div>
+      <div class="col-sm-4 text-center">
+      <button class="btn btn-success btn-block animals" onclick="showQuestion('animals', 100)">$100</button>
+    </div>
+      <div class="col-sm-4 text-center">
+      <button class="btn btn-danger btn-block disney" onclick="showQuestion('disney', 100)">$100</button>
+    </div>
+  </div>
+</div>
+          
+          <br>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4 text-center">
+      <button class="btn btn-primary btn-block food" onclick="showQuestion('food', 200)">$200</button>
+    </div>
+      <div class="col-sm-4 text-center">
+      <button class="btn btn-success btn-block animals" onclick="showQuestion('animals', 200)">$200</button>
+    </div>
+      <div class="col-sm-4 text-center">
+      <button class="btn btn-danger btn-block disney" onclick="showQuestion('disney', 200)">$200</button>
+    </div>
+  </div>
+</div>
+          
+          <br>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4 text-center">
+      <button class="btn btn-primary btn-block food" onclick="showQuestion('food', 300)">$300</button>
+    </div>
+      <div class="col-sm-4 text-center">
+      <button class="btn btn-success btn-block animals" onclick="showQuestion('animals', 300)">$300</button>
+    </div>
+      <div class="col-sm-4 text-center">
+      <button class="btn btn-danger btn-block disney" onclick="showQuestion('disney', 300)">$300</button>
+    </div>
+  </div>
+    
+    <div class="row">
+    <div class="col">
+     <h1 id="score">Score: $0</h1>   
+        </div>
+    </div>
+</div>
+          
+          
+
+
 	
   </body>
 </html>
